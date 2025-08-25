@@ -17,6 +17,7 @@
             "group": "Getting started",
             "pages": [
               "index",
+              "getting-started",
               "quickstart",
               "development"
             ]
@@ -40,9 +41,10 @@
           {
             "group": "AI tools",
             "pages": [
-              "ai-tools/cursor",
               "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "ai-tools/cursor",
+              "ai-tools/windsurf",
+              "ai-tools/comparison"
             ]
           }
         ]
