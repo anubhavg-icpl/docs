@@ -1,0 +1,143 @@
+---
+title: "Getting Started"
+description: "Your first steps with our documentation platform"
+icon: "play"
+---
+
+## Overview
+
+Welcome to our platform! This guide will walk you through everything you need to know to get started quickly and efficiently.
+
+## Prerequisites
+
+Before you begin, make sure you have:
+
+<CardGroup cols={2}>
+  <Card title="Node.js 18+" icon="node">
+    Required for running the development server
+  </Card>
+  <Card title="Git" icon="code-branch">
+    For version control and deployment
+  </Card>
+  <Card title="Text Editor" icon="file-code">
+    VS Code or your preferred editor
+  </Card>
+  <Card title="GitHub Account" icon="github">
+    For hosting and automatic deployments
+  </Card>
+</CardGroup>
+
+## Quick Setup
+
+Follow these three simple steps to get your documentation live:
+
+<Steps>
+  <Step title="Clone the Repository">
+    Start by cloning our starter template:
+    ```bash
+    git clone https://github.com/your-org/docs-template.git
+    cd docs-template
+    ```
+  </Step>
+  
+  <Step title="Install Dependencies">
+    Install the Mintlify CLI globally:
+    ```bash
+    npm i -g mint
+    ```
+  </Step>
+  
+  <Step title="Run Locally">
+    Start the development server:
+    ```bash
+    mint dev
+    ```
+    Your docs will be available at `http://localhost:3000`
+  </Step>
+</Steps>
+
+## Project Structure
+
+Understanding the project structure will help you navigate and customize your documentation:
+
+```
+docs/
+├── api-reference/     # API documentation
+├── essentials/        # Core documentation guides
+├── images/           # Static images and assets
+├── snippets/         # Reusable content snippets
+├── docs.json         # Main configuration file
+└── index.mdx         # Homepage
+```
+
+## Key Features
+
+<AccordionGroup>
+  <Accordion title="MDX Support">
+    Write your documentation using MDX - Markdown with React components. This gives you the power of markdown with the flexibility of React.
+  </Accordion>
+  
+  <Accordion title="Auto-generated API Docs">
+    Import your OpenAPI specification and automatically generate beautiful API documentation with interactive examples.
+  </Accordion>
+  
+  <Accordion title="Built-in Components">
+    Use our pre-built components like Cards, Tabs, Accordions, and more to create rich, interactive documentation.
+  </Accordion>
+  
+  <Accordion title="Search & Navigation">
+    Powerful search functionality and customizable navigation help your users find what they need quickly.
+  </Accordion>
+</AccordionGroup>
+
+## Configuration Basics
+
+Your `docs.json` file controls the main settings:
+
+```json
+{
+  "name": "Your Docs",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373"
+  }
+}
+```
+
+## Next Steps
+
+Now that you have the basics down, explore these resources:
+
+<CardGroup cols={2}>
+  <Card title="Customize Design" icon="palette" href="/essentials/settings">
+    Make the documentation match your brand
+  </Card>
+  <Card title="Add Content" icon="file-plus" href="/essentials/markdown">
+    Learn MDX syntax and best practices
+  </Card>
+  <Card title="Deploy to Production" icon="rocket" href="/quickstart">
+    Get your docs live for users
+  </Card>
+  <Card title="Explore Components" icon="cube" href="/essentials/code">
+    Discover all available components
+  </Card>
+</CardGroup>
+
+## Need Help?
+
+<Note>
+  Join our [community](https://mintlify.com/community) for support, or check out the [troubleshooting guide](/troubleshooting) for common issues.
+</Note>
+
+## Resources
+
+- 📚 [Complete Documentation](https://mintlify.com/docs)
+- 💬 [Discord Community](https://mintlify.com/community)
+- 🎨 [Showcase Examples](https://mintlify.com/customers)
+- 🐛 [Report Issues](https://github.com/mintlify/docs/issues)

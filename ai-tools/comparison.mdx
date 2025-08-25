@@ -1,0 +1,231 @@
+---
+title: "AI Tools Comparison"
+description: "Compare features and capabilities of popular AI coding assistants"
+icon: "scale-balanced"
+---
+
+## Overview
+
+Choosing the right AI coding assistant can significantly impact your development workflow. This guide compares the leading options to help you make an informed decision.
+
+## Feature Comparison
+
+<Table>
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>Claude Code</th>
+      <th>Cursor</th>
+      <th>Windsurf</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>**Model**</td>
+      <td>Claude 3.5 Sonnet</td>
+      <td>Multiple (GPT-4, Claude)</td>
+      <td>Custom + GPT-4</td>
+    </tr>
+    <tr>
+      <td>**IDE Integration**</td>
+      <td>Terminal-based</td>
+      <td>VS Code fork</td>
+      <td>VS Code extension</td>
+    </tr>
+    <tr>
+      <td>**Context Window**</td>
+      <td>200K tokens</td>
+      <td>Variable</td>
+      <td>32K tokens</td>
+    </tr>
+    <tr>
+      <td>**Multi-file Editing**</td>
+      <td>✅ Excellent</td>
+      <td>✅ Good</td>
+      <td>⚠️ Limited</td>
+    </tr>
+    <tr>
+      <td>**Code Generation**</td>
+      <td>✅ Advanced</td>
+      <td>✅ Advanced</td>
+      <td>✅ Good</td>
+    </tr>
+    <tr>
+      <td>**Refactoring**</td>
+      <td>✅ Comprehensive</td>
+      <td>✅ Good</td>
+      <td>⚠️ Basic</td>
+    </tr>
+    <tr>
+      <td>**Testing Support**</td>
+      <td>✅ Full</td>
+      <td>✅ Full</td>
+      <td>⚠️ Partial</td>
+    </tr>
+    <tr>
+      <td>**Pricing**</td>
+      <td>$20/month</td>
+      <td>$20/month</td>
+      <td>$15/month</td>
+    </tr>
+  </tbody>
+</Table>
+
+## Detailed Comparison
+
+### Claude Code
+
+<CardGroup cols={2}>
+  <Card title="Strengths" icon="circle-check" color="#10b981">
+    - Superior context understanding
+    - Excellent at complex refactoring
+    - Strong architectural decisions
+    - Best-in-class code explanation
+  </Card>
+  <Card title="Limitations" icon="circle-xmark" color="#ef4444">
+    - Terminal-only interface
+    - No inline suggestions
+    - Requires CLI familiarity
+  </Card>
+</CardGroup>
+
+### Cursor
+
+<CardGroup cols={2}>
+  <Card title="Strengths" icon="circle-check" color="#10b981">
+    - Seamless IDE experience
+    - Multiple AI model options
+    - Excellent inline completions
+    - Great for rapid prototyping
+  </Card>
+  <Card title="Limitations" icon="circle-xmark" color="#ef4444">
+    - Proprietary VS Code fork
+    - Can be resource-intensive
+    - Limited customization
+  </Card>
+</CardGroup>
+
+### Windsurf
+
+<CardGroup cols={2}>
+  <Card title="Strengths" icon="circle-check" color="#10b981">
+    - Lightweight extension
+    - Works with existing VS Code
+    - Good for simple tasks
+    - Lower price point
+  </Card>
+  <Card title="Limitations" icon="circle-xmark" color="#ef4444">
+    - Limited advanced features
+    - Smaller context window
+    - Less sophisticated refactoring
+  </Card>
+</CardGroup>
+
+## Use Case Recommendations
+
+<Tabs>
+  <Tab title="Enterprise Development">
+    **Best Choice: Claude Code**
+    
+    For large-scale projects requiring:
+    - Complex architectural changes
+    - Comprehensive testing
+    - Code review and documentation
+    - Multi-file refactoring
+  </Tab>
+  
+  <Tab title="Rapid Prototyping">
+    **Best Choice: Cursor**
+    
+    Ideal for:
+    - Quick feature development
+    - Startup environments
+    - Experimenting with ideas
+    - Learning new frameworks
+  </Tab>
+  
+  <Tab title="Personal Projects">
+    **Best Choice: Windsurf**
+    
+    Perfect for:
+    - Hobby projects
+    - Simple automation
+    - Budget-conscious developers
+    - Light coding assistance
+  </Tab>
+</Tabs>
+
+## Performance Metrics
+
+<Note>
+  Based on community benchmarks and user reports. Individual results may vary based on project complexity and usage patterns.
+</Note>
+
+### Speed Comparison
+
+```chart
+{
+  "type": "bar",
+  "data": {
+    "labels": ["Code Generation", "Refactoring", "Bug Fixing", "Documentation"],
+    "datasets": [{
+      "label": "Claude Code",
+      "data": [95, 92, 88, 96]
+    }, {
+      "label": "Cursor",
+      "data": [90, 85, 85, 80]
+    }, {
+      "label": "Windsurf",
+      "data": [75, 70, 72, 65]
+    }]
+  }
+}
+```
+
+## Integration Capabilities
+
+| Integration | Claude Code | Cursor | Windsurf |
+|------------|-------------|---------|----------|
+| Git | ✅ Native | ✅ Built-in | ✅ Via VS Code |
+| Terminal | ✅ Primary | ✅ Integrated | ⚠️ External |
+| Debugging | ⚠️ Via terminal | ✅ Full | ✅ VS Code |
+| Extensions | ❌ N/A | ⚠️ Limited | ✅ Full VS Code |
+| Custom Scripts | ✅ Excellent | ⚠️ Limited | ✅ Good |
+
+## Decision Framework
+
+To choose the right tool, consider:
+
+1. **Project Complexity**: Complex projects → Claude Code, Simple tasks → Windsurf
+2. **Team Size**: Large teams → Claude Code, Solo developers → Any
+3. **Budget**: Enterprise → Claude Code/Cursor, Personal → Windsurf
+4. **Learning Curve**: Beginners → Cursor, Experienced → Claude Code
+5. **Integration Needs**: Existing VS Code setup → Windsurf, Fresh start → Cursor
+
+## Conclusion
+
+Each tool has its strengths:
+- **Claude Code**: Best for complex, professional development
+- **Cursor**: Best for balanced IDE experience
+- **Windsurf**: Best for budget-conscious, simple needs
+
+<Tip>
+  Many developers use multiple tools depending on the task. Consider starting with one and adding others as needed.
+</Tip>
+
+## Related Resources
+
+<CardGroup cols={2}>
+  <Card title="Claude Code Guide" icon="robot" href="/ai-tools/claude-code">
+    Deep dive into Claude Code features
+  </Card>
+  <Card title="Cursor Tutorial" icon="cursor" href="/ai-tools/cursor">
+    Getting started with Cursor
+  </Card>
+  <Card title="Windsurf Setup" icon="wind" href="/ai-tools/windsurf">
+    Configure Windsurf for your workflow
+  </Card>
+  <Card title="Migration Guide" icon="arrow-right-arrow-left" href="/migration">
+    Switching between AI tools
+  </Card>
+</CardGroup>
